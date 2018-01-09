@@ -1,0 +1,44 @@
+/* Header */
+a{
+	color: black;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+.logo{
+	display: flex;
+	align-items: center;
+}
+.logo span{
+	color: MediumAquamarine;
+}
+
+/* Main Body */
+
+.maincontainer{
+	display: flex;
+	border: solid;
+    flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+/*
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}*/
+
