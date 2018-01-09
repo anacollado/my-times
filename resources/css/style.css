@@ -13,9 +13,7 @@ header {
 	padding-right: 25px;
 }
 
-div {
-	border: 1px solid black;
-}
+
 
 .logo {
 	display: flex;
@@ -39,7 +37,6 @@ div {
 .maincontainer {
 	display: flex;
 	justify-content: space-between;
-	border: solid;
 	padding-right: 25px;
 	margin-left: 10px;
 }
@@ -77,14 +74,25 @@ div {
 	font-weight: bold;
 	font-size: 30px;
 	color: white;
+	min-height: 300px;
+	overflow: hidden;
  }
 
+ .large .stories {
+ 	display: flex;
+ }
+
+.stories .pic {
+	text-align: center;
+	padding-right: 10px;
+}
 
 
 /* Images */
 
 .phish {
 	background-image: url(file:///Users/anacollado/Desktop/Projects/My%20Times/resources/images/MainStory.png);
+	font-size: 40px;
 }
 
 .earth {
@@ -100,7 +108,7 @@ div {
 
 }
 
-.cookie {
+.cookie-pic {
 	width: 100%;
 }
 
