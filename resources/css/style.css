@@ -60,6 +60,7 @@ header {
 
 .column.small {
  	width: 240px;
+ 	display: flex;
  }
 
  .narrative {
@@ -87,6 +88,33 @@ header {
 	padding-right: 10px;
 }
 
+.orca {
+	margin-right: 10px;
+}
+
+.burger {
+	margin-left: 10px;
+}
+
+.news-bites {
+	display: flex;
+	flex-direction: column;
+ 	background-color: WhiteSmoke;
+  	font-family: Verdana;
+  	font-size: 12px;
+  	color: DimGray;
+}
+
+.news-bites span {
+	border-bottom: 1px solid black;
+  	padding: 10px 20px;
+}
+
+.news-bites-title {
+	font-size: 16px;
+ 	font-weight: bold;
+ 	text-align: center;
+}
 
 /* Images */
 
