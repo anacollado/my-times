@@ -26,7 +26,7 @@ header {
 	color: MediumAquamarine;
 }
 
-.buttons {
+header .buttons {
 	flex: 1;
 	display: flex;
 	justify-content: space-around;
@@ -139,4 +139,48 @@ header {
 .cookie-pic {
 	width: 100%;
 }
+
+
+/* Footer */
+
+footer {
+	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	flex-direction: column;
+ 	width: 100%;
+	background-color: MediumAquamarine;
+ 	margin: auto;
+ 	font-family: Verdana;
+ 	font-size: 12px;
+ 	height: 300px;
+}
+
+.footer-container {
+	display: block;
+}
+
+.footer-tag {
+	display: inline-block;
+	padding-right: 20px;
+	border-right: 2px solid white;
+	font-family: Georgia;
+ 	font-size: 16px;
+ 	font-weight: bold;
+ 	color: white;
+}
+
+footer .buttons {
+	display: inline-block;
+}
+
+footer .buttons a {
+	padding: 20px 10px;
+}
+
+.copyright {
+	padding: 10px 10px;
+}
+
+
 
